@@ -4,8 +4,12 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.springframework.stereotype.Service;
+
 import br.com.tokiomarine.seguradora.avaliacao.entidade.Estudante;
 
+
+@Service
 public interface EstudandeService {
 
 	List<Estudante> buscarEstudantes();
@@ -15,4 +19,8 @@ public interface EstudandeService {
 	Estudante buscarEstudante(long id);
 
 	void atualizarEstudante(@Valid Estudante estudante);
+	
+	Estudante saveEstudante(@Valid Estudante estudante);
+	
+	void deleteEstudante(long id);
 }

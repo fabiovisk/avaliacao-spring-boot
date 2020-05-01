@@ -1,0 +1,10 @@
+Fabio Oliveira Rodrigues Miranda
+
+Optei por fazer a implementação do RestController na classe EstudanteRestController, pois não tenho 
+conhecimento em Bootstrap e Thymeleaf.
+
+Já estou fazendo um curso online para ganhar este conhecimento que foi solicitado na parte frontend.
+
+Precisei excluir a classe EstudanteController pois estava dando um conflito no projeto.
+
+Desde já agradeço pela opotunidade.
